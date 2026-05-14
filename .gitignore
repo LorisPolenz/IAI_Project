@@ -239,3 +239,4 @@ data/cache
 data/raw
 mlruns/**/
 models/**/
+mlflow.db
