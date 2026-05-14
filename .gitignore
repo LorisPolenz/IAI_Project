@@ -236,3 +236,6 @@ pyrightconfig.json
 
 ## CUSTOM
 data/cache
+data/raw
+mlruns/**/
+models/**/
