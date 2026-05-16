@@ -19,5 +19,7 @@ COPY models/distilbert/onnx/ models/distilbert
 COPY models/distilbert/tokenizer/ models/tokenizer
 COPY src/api.py .
 
+EXPOSE 8000
+
 # Command to run the Python script
 CMD ["fastapi", "run"]
