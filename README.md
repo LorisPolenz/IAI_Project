@@ -5,7 +5,7 @@
 ### ML FLow
 For most steps MLFlow is required. First create the `.env` in `.mlflow` and then start it with
 ```bash
-cd .mlflow && docekr compose up -d 
+cd .mlflow && docker compose up -d 
 ```
 
 MLflow is now available under `http://localhost:5012`
